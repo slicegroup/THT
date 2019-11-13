@@ -1171,7 +1171,7 @@ a.action_button {
 	border-top-color: #545454;
 }
 #Footer .widgets_wrapper{
-	background-color: #63dd2b;
+	background-color: #4add2a;
 }
 body, ul.timeline_items, .icon_box a .desc, .icon_box a:hover .desc, .feature_list ul li a, .list_item a, .list_item a:hover, .widget_recent_entries ul li a, .flat_box a, .flat_box a:hover, .story_box .desc, .content_slider.carouselul li a .title, .content_slider.flat.description ul li .desc, .content_slider.flat.description ul li a .desc, .post-nav.minimal a i {
 	color: #80919d;
@@ -1234,7 +1234,7 @@ a.button, a.tp-button {
 	color: #000 !important;
 	font-size: 15px;
 	font-weight: bold;
-	border-radius: 5px !important;
+	border-radius: 30px !important;
 }
 .button-stroke a.button, .button-stroke a.button .button_icon i, .button-stroke a.tp-button {
 	border-color: #f0e02a;
@@ -1331,7 +1331,7 @@ a.mfn-link-6:before {
 a.action_button {
 	background-color: #f0e02a;
 	color: #ffffff;
-	border-radius: 5px !important;
+	border-radius: 30px !important;
 }
 .button-stroke a.action_button {
 	border-color: #f0e02a;
