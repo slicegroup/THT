@@ -424,7 +424,7 @@ iframe {
 .mcb-wrap {
 	float: left;
 	position: relative;
-	z-index: 1;
+	/* z-index: 1; */
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
