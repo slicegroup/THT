@@ -1234,6 +1234,7 @@ a.button, a.tp-button {
 	color: #000 !important;
 	font-size: 15px;
 	font-weight: bold;
+	border-radius: 5px !important;
 }
 .button-stroke a.button, .button-stroke a.button .button_icon i, .button-stroke a.tp-button {
 	border-color: #f0e02a;
@@ -1330,6 +1331,7 @@ a.mfn-link-6:before {
 a.action_button {
 	background-color: #f0e02a;
 	color: #ffffff;
+	border-radius: 5px !important;
 }
 .button-stroke a.action_button {
 	border-color: #f0e02a;
