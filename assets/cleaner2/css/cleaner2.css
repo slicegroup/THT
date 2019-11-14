@@ -1,3 +1,17 @@
+@font-face {
+	font-family: 'VAGRounded Lt';
+	src: url('./fonts/VAGRoundedLt-Normal.woff2') format('woff2'),
+			url('./fonts/VAGRoundedLt-Normal.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	line-height: 1;
+	font-family: 'VAGRounded Lt' !important;
+	font-weight: normal;
+	font-style: normal;
+}
+
 input[type="date"], input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], select, textarea, .woocommerce .quantity input.qty {
 	border-width: 0 0 0px 0 !important;
 	box-shadow: unset;
@@ -1670,25 +1684,25 @@ html {
 	background-color: #ffffff;
 }
 body, button, span.date_label, .timeline_items li h3 span, input[type="submit"], input[type="reset"], input[type="button"], input[type="text"], input[type="password"], input[type="tel"], input[type="email"], textarea, select, .offer_li .title h3 {
-	font-family: "Muli", Arial, Tahoma, sans-serif;
+		font-family: 'VAGRounded Lt' !important;
 }
 #menu>ul>li>a, a.action_button, #overlay-menu ul li a {
-	font-family: "Muli", Arial, Tahoma, sans-serif;
+		font-family: 'VAGRounded Lt' !important;
 }
 #Subheader .title {
-	font-family: "Georgia", Arial, Tahoma, sans-serif;
+		font-family: 'VAGRounded Lt' !important;
 }
 h1, h2, h3, h4, .text-logo #logo {
-	font-family: "Georgia", Arial, Tahoma, sans-serif;
+		font-family: 'VAGRounded Lt' !important;
 }
 h5, h6 {
-	font-family: "Georgia", Arial, Tahoma, sans-serif;
+		font-family: 'VAGRounded Lt' !important;
 }
 blockquote {
-	font-family: "Muli", Arial, Tahoma, sans-serif;
+		font-family: 'VAGRounded Lt' !important;
 }
 .chart_box .chart .num, .counter .desc_wrapper .number-wrapper, .how_it_works .image .number, .pricing-box .plan-header .price, .quick_fact .number-wrapper, .woocommerce .product div.entry-summary .price {
-	font-family: "Muli", Arial, Tahoma, sans-serif;
+		font-family: 'VAGRounded Lt' !important;
 }
 body {
 	font-size: 15px;

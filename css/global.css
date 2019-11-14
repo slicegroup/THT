@@ -44,8 +44,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+@font-face {
+	font-family: 'VAGRounded Lt';
+	src: url('./assets/cleaner2/fonts/VAGRoundedLt-Normal.woff2') format('woff2'),
+			url('./assets/cleaner2/fonts/VAGRoundedLt-Normal.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 body {
 	line-height: 1;
+	font-family: 'VAGRounded Lt' !important;
+	font-weight: normal;
+	font-style: normal;
 }
 ol, ul {
 	list-style: none;
@@ -435,7 +445,7 @@ iframe {
 
 a.tp-button {
 	background: none;
-	font-family: inherit !important;
+	font-family: 'VAGRounded Lt' !important;
 	height: auto !important;
 	line-height: inherit !important;
 	border-radius: 0;
@@ -8133,12 +8143,12 @@ a.icon_bar {
 /* Quick fact */
 
 .style-simple .quick_fact .number-wrapper {
-	font-family: inherit;
+		font-family: 'VAGRounded Lt' !important;
 	font-size: 60px;
 	line-height: 60px
 }
 .style-simple .quick_fact .title {
-	font-family: inherit;
+		font-family: 'VAGRounded Lt' !important;
 	font-size: 18px;
 	font-weight: 400
 }
@@ -8153,7 +8163,7 @@ a.icon_bar {
 	border-width: 0
 }
 .style-simple .chart_box .chart .num {
-	font-family: inherit;
+	font-family: 'VAGRounded Lt' !important;
 	font-size: 30px
 }
 /* Content link */
@@ -13335,7 +13345,7 @@ a.icon_bar {
 div.jp-audio, div.jp-audio-stream, div.jp-video {
 	background-color: #EEE;
 	color: #666;
-	font-family: Verdana, Arial, sans-serif;
+	font-family: 'VAGRounded Lt' !important;
 	font-size: 1.25em;
 	line-height: 1.6;
 	position: relative;
@@ -13934,7 +13944,7 @@ div.pp_default .pp_nav {
 	position: relative;
 }
 div.pp_default .pp_nav .currentTextHolder {
-	font-family: Georgia;
+	font-family: 'VAGRounded Lt' !important;
 	font-style: italic;
 	color: #999;
 	font-size: 11px;
@@ -15093,12 +15103,12 @@ div.dark_rounded #pp_full_res .pp_inline, div.dark_square #pp_full_res .pp_inlin
 /* Quick fact */
 
 .style-simple .quick_fact .number-wrapper {
-	font-family: inherit;
+		font-family: 'VAGRounded Lt' !important;
 	font-size: 60px;
 	line-height: 60px;
 }
 .style-simple .quick_fact .title {
-	font-family: inherit;
+		font-family: 'VAGRounded Lt' !important;
 	font-size: 18px;
 	font-weight: 400;
 }
@@ -15113,7 +15123,7 @@ div.dark_rounded #pp_full_res .pp_inline, div.dark_square #pp_full_res .pp_inlin
 	border-width: 0;
 }
 .style-simple .chart_box .chart .num {
-	font-family: inherit;
+	font-family: 'VAGRounded Lt' !important;
 	font-size: 30px;
 }
 /* Content link */
@@ -16338,7 +16348,7 @@ body.mobile-side-slide {
 }
 .demo-switch .title {
 	margin: 0 2% 15px;
-	font-family: Lora;
+	font-family: 'VAGRounded Lt' !important;
 	font-style: italic;
 	color: #6c6d6d;
 }
@@ -19420,7 +19430,7 @@ a#back_to_top.button .button_icon {
 /* Code Hightlighter ----------------------------------------------------------------- */
 
 code, pre, q {
-	font-family: Consolas, monospace!important;
+	font-family: 'VAGRounded Lt' !important;
 	border: 1px solid #e8e8e8;
 	background: #fff;
 	-webkit-border-radius: 3px;
@@ -19538,7 +19548,7 @@ a.action_button:hover{text-decoration:none}
 	font-weight: 600;
 	color: rgb(10, 10, 10);
 	letter-spacing: -1px;
-	font-family: Georgia, serif;
+	font-family: 'VAGRounded Lt' !important;
 	visibility: inherit;
 	transition: none 0s ease 0s;
 	text-align: center;
@@ -19560,7 +19570,7 @@ a.action_button:hover{text-decoration:none}
 	font-weight: 400;
 	color: rgb(117, 126, 135);
 	letter-spacing: 0px;
-	font-family: Muli;
+	font-family: 'VAGRounded Lt' !important;
 	visibility: inherit;
 	transition: none 0s ease 0s;
 	text-align: center;
@@ -19619,7 +19629,7 @@ a.action_button:hover{text-decoration:none}
 	width: 100%;
 	height: auto;
 	padding: 13px 15px;
-	font-family: "Muli", sans-serif;
+	font-family: 'VAGRounded Lt' !important;
 	font-weight: 400;
 	font-size: 1rem;
 	line-height: 1.25;
@@ -19684,7 +19694,7 @@ a.action_button:hover{text-decoration:none}
 
 }
 .banner-buttoms a{
-	  background-color: #4bb046;
+	  background-color: #64de2b;
     padding: 8px 25px;
     border-radius: 30px;
     margin: 5px;
@@ -19698,7 +19708,7 @@ a.action_button:hover{text-decoration:none}
 .about-us{
 	padding-top: 120px;
 	padding-bottom: 100px;
-	background-color: #4bb046;
+	background-color: #64de2b;
 	width: 42%;
 }
 .firts-col{
@@ -19747,7 +19757,20 @@ a.action_button:hover{text-decoration:none}
 	background-color: #63dd2b;
 	border-color: #63dd2b;
 }
-@media only screen and (max-width: 767px){
+.tht-img img{
+	width: 820px;
+}
+.icon-tht{
+	height: 52px !important;
+  width: 85px;
+}
+.about-img{
+	display: flex;
+	justify-content: center; 
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+@media only screen and (max-width: 768px){
 	.form-padding {
 			padding-top: 0;
 	}
@@ -19812,6 +19835,11 @@ a.button, a.tp-button {
     object-fit: fill;
     z-index: 1;
 }
+.icon-tht{
+	height: 44px !important;
+	width: 65px;
+	margin-bottom: 15px;
+}
 .c {
 	display: flex;
 	/* flex-direction: row; */
@@ -19864,12 +19892,25 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 	box-sizing: border-box;
 	-webkit-appearance: none;
 }
+.c {
+	display: flex;
+	/* flex-direction: row; */
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: normal;
+	padding: 0 60px;
+}
+.about-detail {
+	max-width: 300px;
+}
+
 .form-control {
 	display: inline-block;
 	width: 100%;
 	height: auto;
 	padding: 9px 10px;
-	font-family: "Muli", sans-serif;
+	font-family: 'VAGRounded Lt' !important;
 	font-weight: 400;
 	font-size: 0.6rem;
 	line-height: 1.25;
@@ -19889,8 +19930,10 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
 }
 }
-@media only screen and (max-width: 320px){
-	
+@media only screen and (max-width: 385px){
+	#myVideo{
+		height: 570px;
+	}
 	.banner-title {
     font-size: 38px;
     line-height: 45px;
@@ -19898,6 +19941,9 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 	.banner-content {
 		font-size: 12px;
     line-height: 17px;
+	}
+	.about-detail{
+		text-align: center;
 	}
 	.banner-buttoms {
 		margin-top: 30px;
@@ -19913,5 +19959,11 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 	}
 	.cont-g{
 		padding-bottom: 22px;
+	}
+	a.button, a.tp-button{
+		font-size: 12px;
+	}
+	.list-about{
+		margin-left: 0;
 	}
 }
