@@ -24,7 +24,7 @@ a.action_button {
 .is-sticky a.action_button {
 	top: 10px;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 	a.action_button {
 		display: none;
 	}
@@ -32,7 +32,7 @@ a.action_button {
 .mfn-main-slider {
 	position: relative;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 	#Top_bar {
 		position: relative;
 	}
@@ -1322,7 +1322,7 @@ a.mfn-link-6:before {
 .highlight-left:after, .highlight-right:after {
 	background: #ffffff;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 	.highlight-left .wrap:first-child, .highlight-right .wrap:last-child {
 		background: #ffffff;
 	}
@@ -1654,7 +1654,7 @@ input[type="date"]:focus, input[type="email"]:focus, input[type="number"]:focus,
 		background-color: rgba(255, 255, 255, 0.8);
 	}
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 	#Top_bar {
 		background-color: #ffffff !important;
 	}
@@ -1891,7 +1891,7 @@ h6 {
 		line-height: 20px;
 	}
 }
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
 	body {
 		font-size: 13px;
 		line-height: 19px;
@@ -2151,7 +2151,7 @@ h6 {
 		max-width: 1080px;
 	}
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 	.section_wrapper, .container, .four.columns .widget-area {
 		max-width: 480px !important;
 	}
@@ -2185,7 +2185,7 @@ h6 {
 .header-plain #Top_bar a#header_cart, .header-plain #Top_bar a#search_button, .header-plain #Top_bar .wpml-languages, .header-plain #Top_bar a.action_button {
 	line-height: 100px;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 	#Top_bar a.responsive-menu-toggle {
 		top: 40px;
 	}
@@ -2273,7 +2273,7 @@ form input.display-none {
 .button_align.align_right {
 	text-align: right
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 	.mobile-header-mini #Top_bar .container {
 		width: 100%!important;
 	}
@@ -2338,7 +2338,7 @@ form input.display-none {
 		width: 33.333%;
 	}
 }
-@media only screen and min-width: 480px and max-width: 767px {
+@media only screen and min-width: 480px and max-width: 768px {
 	.the-icons.span3 {
 		width: 50%;
 	}
@@ -2497,7 +2497,7 @@ p.flv_align_right, div.flv_align_right {
 .flv_float_right, div.flv_float_right {
 	float: right;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 	#Top_bar #logo img.logo-main {
 		display: none
 	}
@@ -2508,7 +2508,7 @@ p.flv_align_right, div.flv_align_right {
 		height: auto!important
 	}
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 	/* Blog Teaser */
 	.blog-teaser li {
 		width: 100%!important

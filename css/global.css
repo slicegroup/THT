@@ -19770,7 +19770,63 @@ a.action_button:hover{text-decoration:none}
 	margin: 0 auto;
 	margin-bottom: 50px;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 880px){
+	.form-padding {
+			padding-top: 0;
+	}
+	.info {
+    min-height: 270px;
+}
+.tht-img img{
+	width: 400px;
+}
+.icon-i{
+	font-size:35px;
+}
+.about-detail {
+	color: white;
+	font-size: 12px;
+	max-width: 200px;
+}
+.about-title {
+	font-size: 20px;
+	font-weight: 900;
+}
+.list-checks {
+	font-size: 12px;
+}
+a.button .button_label {
+	padding: 5px 8px;
+}
+a.button, a.tp-button {
+	background-color: #f0e02a;
+	color: #000 !important;
+	font-size: 10px;
+	font-weight: bold;
+}
+.about-us {
+	padding-top: 0;
+}
+#myVideo {
+	position: relative;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	object-fit: cover;
+	z-index: 1;
+}
+.carita{
+	display: none;
+}
+.title-i {
+	margin-bottom: 5rem;
+}
+.fa-users{
+	margin-bottom: 40px;
+}
+
+}
+@media only screen and (max-width: 767px){
 	.form-padding {
 			padding-top: 0;
 	}
@@ -19840,6 +19896,9 @@ a.button, a.tp-button {
 	width: 65px;
 	margin-bottom: 15px;
 }
+.list-about {
+	margin-left: 0;
+}
 .c {
 	display: flex;
 	/* flex-direction: row; */
@@ -19902,7 +19961,8 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 	padding: 0 60px;
 }
 .about-detail {
-	max-width: 300px;
+	max-width: 390px;
+  text-align: center;
 }
 
 .form-control {
@@ -19930,7 +19990,7 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
 }
 }
-@media only screen and (max-width: 385px){
+@media only screen and (max-width: 415px){
 	#myVideo{
 		height: 570px;
 	}
@@ -19949,7 +20009,7 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 		margin-top: 30px;
 	}
 	.gandhi-title{
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.tht-img img {
     width: 270px;
