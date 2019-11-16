@@ -19623,7 +19623,17 @@ a.action_button:hover{text-decoration:none}
   margin: 15px 0;
   line-height: 0;
 }
-
+.about-container{
+	display: flex;
+  justify-content: space-between;
+}
+.about-about{
+	color: white;
+	font-size: 50px;
+	width: 295px;
+	line-height: 1;
+	margin-right: 100px;
+}
 .form-control {
 	display: inline-block;
 	width: 100%;
@@ -19783,6 +19793,16 @@ a.action_button:hover{text-decoration:none}
 .icon-i{
 	font-size:35px;
 }
+.about-container{
+	margin-top: 25px;
+}
+.about-about {
+	color: white;
+	font-size: 29px;
+	width: 299px;
+	line-height: 1;
+	margin-right: 47px;
+}
 .about-detail {
 	color: white;
 	font-size: 12px;
@@ -19838,6 +19858,16 @@ a.button, a.tp-button {
 }
 .icon-i{
 	font-size:35px;
+}
+.about-container{
+	margin-top: 25px;
+}
+.about-about {
+	color: white;
+	font-size: 29px;
+	width: 299px;
+	line-height: 1;
+	margin-right: 47px;
 }
 .about-detail {
 	color: white;
@@ -19895,6 +19925,16 @@ a.button, a.tp-button {
 	height: 44px !important;
 	width: 65px;
 	margin-bottom: 15px;
+}
+.about-container{
+	display: block;
+}
+.about-about{
+	color: #4add2a;
+	font-size: 15px;
+	width: auto;
+	line-height: 1;
+	margin-right: 0;
 }
 .list-about {
 	margin-left: 0;
