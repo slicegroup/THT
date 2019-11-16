@@ -1246,8 +1246,8 @@ h6, h6 a, h6 a:hover, a.content_link .title {
 a.button, a.tp-button {
 	background-color: #f0e02a;
 	color: #000 !important;
-	font-size: 15px;
-	font-weight: bold;
+	font-size: 13px;
+	font-weight: 500;
 	border-radius: 30px !important;
 }
 .button-stroke a.button, .button-stroke a.button .button_icon i, .button-stroke a.tp-button {
@@ -2145,15 +2145,15 @@ h6 {
 }
 @media only screen and (min-width: 1240px) {
 	.section_wrapper, .container {
-		max-width: 1060px;
+		max-width: 100%;
 	}
 	.layout-boxed.header-boxed #Top_bar.is-sticky {
-		max-width: 1080px;
+		max-width: 100%;
 	}
 }
 @media only screen and (max-width: 768px) {
 	.section_wrapper, .container, .four.columns .widget-area {
-		max-width: 480px !important;
+		max-width: 100%;
 	}
 }
 #Top_bar #logo, .header-fixed #Top_bar #logo, .header-plain #Top_bar #logo, .header-transparent #Top_bar #logo {
