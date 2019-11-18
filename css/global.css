@@ -19745,8 +19745,7 @@ a.action_button:hover{text-decoration:none}
 	position: absolute;
 }
 .cont-g{
-	/* padding-top: 75px; */
-	padding-bottom: 75px;
+	padding-bottom: 0;
 	/* background-color: #edf3f8; */
 	position: relative;
 	height: 250px;
@@ -19756,7 +19755,7 @@ a.action_button:hover{text-decoration:none}
 	align-items: center;
 }
 .form-padding{
-	padding-top: 100px;
+	padding-top: 0;
 	padding-bottom:0px;
 }
 .icon-i{
