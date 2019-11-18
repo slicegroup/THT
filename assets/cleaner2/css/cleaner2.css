@@ -1,17 +1,30 @@
 @font-face {
+	font-family: '[z] Arista';
+	src: url('../fonts/zAristaLight.woff2') format('woff2'),
+			url('../fonts/zAristaLight.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+/* @font-face {
 	font-family: 'VAGRounded Lt';
 	src: url('./fonts/VAGRoundedLt-Normal.woff2') format('woff2'),
 			url('./fonts/VAGRoundedLt-Normal.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
-}
+} */
 body {
 	line-height: 1;
-	font-family: 'VAGRounded Lt' !important;
+	font-family: '[z] Arista'!important;
 	font-weight: normal;
 	font-style: normal;
 }
 
+h1{
+	line-height: 1;
+	font-family: '[z] Arista'!important;
+	font-weight: normal;
+	font-style: normal;
+}
 input[type="date"], input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], select, textarea, .woocommerce .quantity input.qty {
 	border-width: 0 0 0px 0 !important;
 	box-shadow: unset;
@@ -1690,19 +1703,21 @@ body, button, span.date_label, .timeline_items li h3 span, input[type="submit"],
 		font-family: 'VAGRounded Lt' !important;
 }
 #Subheader .title {
-		font-family: 'VAGRounded Lt' !important;
+	font-family: '[z] Arista' !important;
 }
 h1, h2, h3, h4, .text-logo #logo {
-		font-family: 'VAGRounded Lt' !important;
+			font-family: '[z] Arista' !important;
+			letter-spacing: 1px !important;
 }
 h5, h6 {
-		font-family: 'VAGRounded Lt' !important;
+			font-family: '[z] Arista' !important;
+			letter-spacing: 1px !important;
 }
 blockquote {
-		font-family: 'VAGRounded Lt' !important;
+			font-family: '[z] Arista' !important;
 }
 .chart_box .chart .num, .counter .desc_wrapper .number-wrapper, .how_it_works .image .number, .pricing-box .plan-header .price, .quick_fact .number-wrapper, .woocommerce .product div.entry-summary .price {
-		font-family: 'VAGRounded Lt' !important;
+			font-family: '[z] Arista' !important;
 }
 body {
 	font-size: 15px;

@@ -44,16 +44,25 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-@font-face {
+/* @font-face {
 	font-family: 'VAGRounded Lt';
 	src: url('./assets/cleaner2/fonts/VAGRoundedLt-Normal.woff2') format('woff2'),
 			url('./assets/cleaner2/fonts/VAGRoundedLt-Normal.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
+} */
+@font-face {
+	font-family: '[z] Arista';
+	src: url('./assets/cleaner2/fonts/zAristaLight.woff2') format('woff2'),
+			url('./assets/cleaner2/fonts/zAristaLight.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
 }
+
+
 body {
 	line-height: 1;
-	font-family: 'VAGRounded Lt' !important;
+	font-family: '[z] Arista' !important;
 	font-weight: normal;
 	font-style: normal;
 }
@@ -19548,7 +19557,7 @@ a.action_button:hover{text-decoration:none}
 	font-weight: 600;
 	color: rgb(10, 10, 10);
 	letter-spacing: -1px;
-	font-family: 'VAGRounded Lt' !important;
+
 	visibility: inherit;
 	transition: none 0s ease 0s;
 	text-align: center;
@@ -19793,6 +19802,7 @@ a.action_button:hover{text-decoration:none}
 	line-height: 2;
 	justify-content: center;
 }
+
 
 @media only screen and (max-width: 880px){
 	.form-padding {
